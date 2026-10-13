@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "How HTTPS Works - Complete Interactive Technical Demonstration and Educational Project",
   "scripts": {
-    "cert": "npm --prefix server run cert",
-    "test": "npm --prefix server test",
+    "start": "npm --prefix server start",
+    "dev": "npm --prefix client dev",
     "server": "npm --prefix server start",
     "client": "npm --prefix client dev",
+    "cert": "npm --prefix server run cert",
+    "test": "npm --prefix server test",
     "build": "npm --prefix client build"
   },
   "keywords": ["https", "tls", "security", "wireshark", "cryptography", "educational"],
