@@ -1,0 +1,15 @@
+{
+  "name": "how-https-works-demo",
+  "version": "1.0.0",
+  "description": "How HTTPS Works - Complete Interactive Technical Demonstration and Educational Project",
+  "scripts": {
+    "cert": "npm --prefix server run cert",
+    "test": "npm --prefix server test",
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client dev",
+    "build": "npm --prefix client build"
+  },
+  "keywords": ["https", "tls", "security", "wireshark", "cryptography", "educational"],
+  "author": "Antigravity Technical Demo",
+  "license": "MIT"
+}

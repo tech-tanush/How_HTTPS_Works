@@ -1,0 +1,17 @@
+{
+  "name": "https-demo-server",
+  "version": "1.0.0",
+  "description": "Backend HTTP and HTTPS dual server demonstrating TLS and networking concepts",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "cert": "node scripts/generate-cert.js",
+    "cert:force": "node scripts/generate-cert.js --force",
+    "test": "node scripts/test-endpoints.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
